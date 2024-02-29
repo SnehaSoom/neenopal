@@ -1,0 +1,84 @@
+.profile-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 20px;
+  margin: 20px; /* Add margin around the container */
+}
+
+.profile-card {
+  background-color: #f5f5f5;
+  width: 345px;
+  border: 1px solid #ccc; /* Add border */
+  margin-bottom: 20px; /* Add margin at the bottom of each card */
+}
+
+.image-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.profile-details {
+  text-align: left; 
+  padding: 24px;
+  zoom:1;
+    background-color: white;
+}
+
+.profile-details h4 {
+  margin-top: 0; 
+      margin-bottom: 0.5em;
+    color: rgba(0,0,0,.85);
+    font-weight: 500;
+}
+
+.profile-details p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: rgba(0,0,0,.65);
+      font-variant: tabular-nums;
+    line-height: 1.0;
+    list-style: none
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 305px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+/* Apply border to all buttons except the last one */
+.icon-button:not(:last-child) {
+  border-right: 1px solid #ccc;
+}
+
+/* Common styles for all buttons */
+.icon-button {
+  border: none;
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 20px; /* Set the width of the button */
+  height: 20px; /* Set the height of the button */
+  box-sizing: border-box; /* Include border in width and height calculations */
+  margin: 0; /* Reset margin */
+  padding: 0; /* Reset padding */
+}
+
+.heart-icon,
+.trash-icon {
+  /* Set the width and height of the icons */
+  width: 24px;
+  height: 24px;
+}
+
+
+
+
+
+  

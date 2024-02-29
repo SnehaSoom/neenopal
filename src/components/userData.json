@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "profileImage": "profile.png",
+      "name": "Leanne Graham",
+      "email": "Sincere@april.biz",
+      "phone": "1-770-736-8031 x56442",
+      "website": "http://hildegard.org"
+    },
+    {
+      "id": 2,
+      "profileImage": "profile.png",
+      "name": "Ervin Howell",
+      "email": "Shanna@melissa.tv",
+      "phone": "010-692-6593 x09125",
+      "website": "http://anastasia.net"
+    },
+    {
+      "id": 3,
+      "profileImage": "profile.png",
+      "name": "Clementine Bauch",
+      "email": "Nathan@yesenia.net",
+      "phone": "1-463-123-4447",
+      "website": "http://ramiro.info"
+    },
+    {
+      "id": 4,
+      "profileImage": "profile.png",
+      "name": "Patricia Lebsack",
+      "email": "Julianne.OConner@kory.org",
+      "phone": "493-170-9623 x156",
+      "website": "https://example.com"
+    },
+    {
+      "id": 5,
+      "profileImage": "profile.png",
+      "name": "Chelsey Dietrich",
+      "email": "Lucio_Hettinger@annie.ca",
+      "phone": "(254)954-1289",
+      "website": "http://demarco.info"
+    },
+    {
+      "id": 6,
+      "profileImage": "profile.png",
+      "name": "Mrs. Dennis Schulist",
+      "email": "Karley_Dach@jasper.info",
+      "phone": "1-477-935-8478 x6430",
+      "website": "http://ola.org"
+    },
+    {
+      "id": 7,
+      "profileImage": "profile.png",
+      "name": "Kurtis Weissnat",
+      "email": "Telly.Hoeger@billy.biz",
+      "phone": "210.067.6132",
+      "website": "http://elvis.io"
+    },
+    {
+      "id": 8,
+      "profileImage": "profile.png",
+      "name": "Nicholas Runolfsdottir V",
+      "email": "Sherwood@rosamond.me",
+      "phone": "586.493.6943 x140",
+      "website": "http://jacynthe.com"
+    },
+    {
+      "id": 9,
+      "profileImage": "profile.png",
+      "name": "Glenna Reichert",
+      "email": "Chaim_McDermott@dana.io",
+      "phone": "(775)976-6794 x41206",
+      "website": "http://conrad.com"
+    },
+    {
+      "id": 10,
+      "profileImage": "profile.png",
+      "name": "Clementina DuBuque",
+      "email": "Rey.Padberg@karina.biz",
+      "phone": "024-648-3804",
+      "website": "http://ambrose.net"
+    }
+  ]
+}
