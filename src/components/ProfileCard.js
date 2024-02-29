@@ -38,7 +38,7 @@ const ProfileCard = () => {
     // Update user details in userData.json or any other backend
     // console.log("Saving changes:", editedUser);
     let temp = [...visibleUsers];
-    const index = temp.findIndex((ele)=> ele.id === editedUser.id);
+    const index = temp.findIndex((ele) => ele.id === editedUser.id);
     temp.splice(index, 1, editedUser);
     setVisibleUsers(temp);
     setModalVisible(false);
@@ -52,36 +52,40 @@ const ProfileCard = () => {
   return (
     <>
       <div className="profile-cards-container">
-        {visibleUsers.map(user => (
-          <div className="profile-card" key={user.id}>
-            <div className="image-container">
-              <img src={profileImage} alt={user.name} className="profile-image" />
-            </div>
-            <div className="profile-details">
-              <h4>{user.name}</h4>
-              <p><MailIcon /> {user.email}</p>
-              <p><PhoneIcon /> {user.phone}</p>
-              <p><InternetIcon /> {user.website}</p>
-            </div>
-            <div className="button-container">
-              <div className='button-box'>
-                <button className="icon-button" onClick={() => toggleLike(user.id)}>
-                  <HeartIcon className={`heart-icon`} liked={likedUsers[user.id]} />
-                </button>
+        <div className='profile-cards-box'>
+          {visibleUsers.map(user => (
+            <div className="profile-card" key={user.id}>
+              <div className="image-container">
+                <img src={profileImage} alt={user.name} className="profile-image" />
               </div>
-              <div className='button-box'>
-                <button className="icon-button" onClick={() => handleEdit(user)}>
-                  <EditIcon />
-                </button>
+              <div className="profile-details">
+                <h4>{user.name}</h4>
+                <p><MailIcon /> {user.email}</p>
+                <p><PhoneIcon /> {user.phone}</p>
+                <p><InternetIcon /> {user.website}</p>
               </div>
-              <div className='button-box-end'>
-                <button className="icon-button" onClick={() => handleDelete(user.id)}>
-                  <TrashIcon />
-                </button>
+              <div className="button-container">
+                <div className='button-box'>
+                  <button className="icon-button" onClick={() => toggleLike(user.id)}>
+                    <HeartIcon className={`heart-icon`} liked={likedUsers[user.id]} />
+                  </button>
+                </div>
+                <div className='button-box'>
+                  <button className="icon-button" onClick={() => handleEdit(user)}>
+                    <EditIcon />
+                  </button>
+                </div>
+                <div className='button-box-end'>
+                  <button className="icon-button" onClick={() => handleDelete(user.id)}>
+                    <TrashIcon />
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+
+        </div>
+
 
         {/* Render the EditModal if modalVisible is true */}
         {modalVisible && (

@@ -1,9 +1,16 @@
 .profile-cards-container {
   /* Add margin around the container */
   display: flex;
+  justify-content: center;
+
+}
+
+.profile-cards-box {
+  display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   gap: 10px 10px;
+  width: fit-content;
 }
 
 /* .profile-card-box {} */
@@ -58,14 +65,14 @@
   text-align: center;
 }
 
-.button-box{
+.button-box {
   width: 85px;
   border-right: 1px solid rgb(134, 133, 133);
   display: flex;
   justify-content: center;
 }
 
-.button-box-end{
+.button-box-end {
   width: 85px;
   /* border-right: 1px solid rgb(134, 133, 133); */
   display: flex;
