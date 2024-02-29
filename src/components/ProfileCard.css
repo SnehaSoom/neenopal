@@ -11,6 +11,7 @@
 .profile-card {
   background-color: #f5f5f5;
   /* width: 345px; */
+  width: 300px;
   border: 1px solid #ccc;
   /* Add border */
   margin-bottom: 20px;
@@ -51,15 +52,25 @@
 .button-container {
   display: flex;
   justify-content: space-between;
-  width: 345px;
+  width: 260px;
   padding: 20px;
   background-color: #f0f0f0;
   text-align: center;
 }
 
 .button-box{
-  width: 100px;
+  width: 85px;
   border-right: 1px solid rgb(134, 133, 133);
+  display: flex;
+  justify-content: center;
+}
+
+.button-box-end{
+  width: 85px;
+  /* border-right: 1px solid rgb(134, 133, 133); */
+  display: flex;
+  justify-content: center;
+
 }
 
 /* Apply border to all buttons except the last one */

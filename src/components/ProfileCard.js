@@ -74,7 +74,7 @@ const ProfileCard = () => {
                   <EditIcon />
                 </button>
               </div>
-              <div>
+              <div className='button-box-end'>
                 <button className="icon-button" onClick={() => handleDelete(user.id)}>
                   <TrashIcon />
                 </button>
