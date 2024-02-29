@@ -13,15 +13,19 @@
 .modal-content {
   width: 520px;
   background-color: white;
-  padding: 20px;
+  /* padding: 20px; */
   border-radius: 8px;
+  /* border: 1px solid red; */
 }
 
 .modal-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+  padding: 0px 20px 0px 20px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 10px;
+  color: rgb(102, 100, 100);
 }
 
 .close-button {
@@ -29,12 +33,37 @@
 }
 
 .close-button span {
-  font-size: 20px;
+  font-size: 30px;
   color: #aaa;
 }
 
 .input-group {
   margin-bottom: 15px;
+  /* border: 1px solid red; */
+  width: 100%;
+  display: flex;
+}
+
+.label-container{
+  width: 40%;
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.input-container{
+  width: 60%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* border: 1px solid green; */
+}
+
+.input-container input{
+  width: 90%;
+  height: 25px;
 }
 
 .input-group label {
@@ -52,8 +81,25 @@
 .modal-buttons {
   display: flex;
   justify-content: flex-end; /* Align buttons to the right */
+  border-top: 1px solid gray;
+  padding: 20px 20px 20px 0px;
 }
 
-.modal-buttons button {
-  margin-left: 10px; /* Add margin between buttons */
+.cancel-btn{
+  cursor: pointer;
+  padding: 0px 10px 0px 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(184, 182, 182);
+  margin-right: 10px;
+  color: gray;
 }
+
+.save-btn{
+  cursor: pointer;
+  padding: 10px 15px 10px 15px;
+  color: #ffffff;
+  background-color: rgb(32, 143, 218);
+  border-radius: 5px;
+  border: none;
+}
+

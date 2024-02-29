@@ -31,47 +31,66 @@ const EditModal = ({ user, onSave, onCancel }) => {
             <span>&times;</span>
           </div>
         </div>
-        <hr /> {/* Add a horizontal line */}
-        
+        {/* <hr /> Add a horizontal line */}
+
         <div className="input-group">
-          <label>Name:</label>
-          <input
-            type="text"
-            name="name"
-            value={editedUser.name || ''}
-            onChange={handleChange}
-          />
+          <div className='label-container'>
+            <label>* Name :</label>
+          </div>
+          <div className='input-container'>
+            <input
+              type="text"
+              name="name"
+              value={editedUser.name || ''}
+              onChange={handleChange}
+            />
+          </div>
+
         </div>
         <div className="input-group">
-          <label>Email:</label>
-          <input
-            type="email"
-            name="email"
-            value={editedUser.email || ''}
-            onChange={handleChange}
-          />
+          <div className='label-container'>
+            <label>* Email:</label>
+          </div>
+          <div className='input-container'>
+            <input
+              type="email"
+              name="email"
+              value={editedUser.email || ''}
+              onChange={handleChange}
+            />
+          </div>
         </div>
         <div className="input-group">
-          <label>Phone:</label>
-          <input
-            type="tel"
-            name="phone"
-            value={editedUser.phone || ''}
-            onChange={handleChange}
-          />
+          <div className='label-container'>
+            <label>* Phone:</label>
+          </div>
+          <div className='input-container'>
+            <input
+              type="tel"
+              name="phone"
+              value={editedUser.phone || ''}
+              onChange={handleChange}
+            />
+
+          </div>
+
         </div>
         <div className="input-group">
-          <label>Website:</label>
-          <input
-            type="text"
-            name="website"
-            value={editedUser.website || ''}
-            onChange={handleChange}
-          />
+          <div className='label-container'>
+            <label>* Website:</label>
+          </div>
+          <div className='input-container'>
+            <input
+              type="text"
+              name="website"
+              value={editedUser.website || ''}
+              onChange={handleChange}
+            />
+          </div>
         </div>
         <div className="modal-buttons">
-          <button onClick={handleCancel}>Cancel</button>
-          <button onClick={handleSave}>Save</button>
+          <button className='cancel-btn' onClick={handleCancel}>Cancel</button>
+          <button className='save-btn' onClick={handleSave}>OK</button>
         </div>
       </div>
     </div>
