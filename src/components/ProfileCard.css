@@ -8,12 +8,12 @@
 .profile-cards-box {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content:center;
   gap: 10px 10px;
   width: fit-content;
 }
 
-/* .profile-card-box {} */
+
 
 .profile-card {
   background-color: #f5f5f5;
@@ -21,7 +21,7 @@
   width: 300px;
   border: 1px solid #ccc;
   /* Add border */
-  margin-bottom: 20px;
+  margin: 20px;
   /* Add margin at the bottom of each card */
 }
 

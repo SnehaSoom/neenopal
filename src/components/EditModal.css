@@ -12,20 +12,29 @@
 
 .modal-content {
   width: 520px;
-  background-color: white;
-  /* padding: 20px; */
+  background-color: white;   
   border-radius: 8px;
-  /* border: 1px solid red; */
 }
 
 .modal-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 20px 0px 20px;
-  border-bottom: 1px solid gray;
-  margin-bottom: 10px;
-  color: rgb(102, 100, 100);
+  
+  border-bottom: 1px solid #e8e8e8;;
+ 
+ margin: 12px;
+    color: rgba(0,0,0,.85);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+
+
+      padding: 16px 24px;
+    color: rgba(0,0,0,.65);
+    background: #fff;
+    
+    border-radius: 4px 4px 0 0;
 }
 
 .close-button {
@@ -38,10 +47,10 @@
 }
 
 .input-group {
-  margin-bottom: 15px;
-  /* border: 1px solid red; */
+ 
   width: 100%;
   display: flex;
+  
 }
 
 .label-container{
@@ -50,15 +59,18 @@
   display: flex;
   justify-content: end;
   align-items: center;
-  padding-right: 10px;
+  
 }
 
 .input-container{
-  width: 60%;
+  width: 100%;
   display: flex;
   justify-content: start;
   align-items: center;
-  /* border: 1px solid green; */
+  padding: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    word-wrap: break-word;
 }
 
 .input-container input{
@@ -81,9 +93,9 @@
 .modal-buttons {
   display: flex;
   justify-content: flex-end; /* Align buttons to the right */
-  border-top: 1px solid gray;
-  padding: 20px 20px 20px 0px;
-}
+  border-top:1px solid #e8e8e8;;
+  padding: 10px 16px;
+  }
 
 .cancel-btn{
   cursor: pointer;
@@ -102,4 +114,8 @@
   border-radius: 5px;
   border: none;
 }
+.required {
+  color: red;
+}
+
 

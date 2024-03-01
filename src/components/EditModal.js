@@ -26,7 +26,7 @@ const EditModal = ({ user, onSave, onCancel }) => {
     <div className="modal">
       <div className="modal-content">
         <div className="modal-header">
-          <h4>Basic Modal</h4>
+          Basic Modal
           <div className="close-button" onClick={handleCancel}>
             <span>&times;</span>
           </div>
@@ -35,7 +35,9 @@ const EditModal = ({ user, onSave, onCancel }) => {
 
         <div className="input-group">
           <div className='label-container'>
-            <label>* Name :</label>
+            <label>
+            <span className="required">*</span>
+             Name :</label>
           </div>
           <div className='input-container'>
             <input
@@ -49,7 +51,8 @@ const EditModal = ({ user, onSave, onCancel }) => {
         </div>
         <div className="input-group">
           <div className='label-container'>
-            <label>* Email:</label>
+            <label>
+            <span className="required">*</span> Email:</label>
           </div>
           <div className='input-container'>
             <input
@@ -62,7 +65,9 @@ const EditModal = ({ user, onSave, onCancel }) => {
         </div>
         <div className="input-group">
           <div className='label-container'>
-            <label>* Phone:</label>
+            <label>
+            <span className="required">*</span>
+             Phone:</label>
           </div>
           <div className='input-container'>
             <input
@@ -77,7 +82,9 @@ const EditModal = ({ user, onSave, onCancel }) => {
         </div>
         <div className="input-group">
           <div className='label-container'>
-            <label>* Website:</label>
+            <label>
+            <span className="required">*</span>
+             Website:</label>
           </div>
           <div className='input-container'>
             <input
